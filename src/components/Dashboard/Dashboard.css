@@ -1,0 +1,48 @@
+div.container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-areas: "left main right";
+}
+main {
+  grid-area: main;
+  margin-top: 2rem;
+}
+main .movieHeading {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main .movieHeading a {
+  margin-left: auto;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background: linear-gradient(-60deg, #fba330, #fb6630);
+  border-radius: 10px;
+  font-weight: bold;
+}
+main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main ul li {
+  background: #1a1a1a;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 100ms;
+}
+main ul li:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+main ul li .movieContent {
+  padding: 12px;
+}
+main ul li .movieTitle {
+  background: linear-gradient(-60deg, #fba330, #fb6630);
+  padding: 6px;
+  border-radius: 5px 5px 0px 0px;
+}

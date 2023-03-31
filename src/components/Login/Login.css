@@ -1,0 +1,16 @@
+.LoginPage {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.LoginPage p {
+  padding-bottom: 10px;
+}
+
+.LoginPage a {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(-20deg, #fba330, #fb6630);
+  padding: 5px;
+  border-radius: 5px;
+}
